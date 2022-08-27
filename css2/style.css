@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+
+    font-family: 'Palanquin', sans-serif;
+}
+.hr-title{
+    border-bottom: none;
+    border: 3px solid white;
+    width: 100px;
+    border-color:black;
+    margin: auto;
+}
+
+/* header section start */
+header{
+  background-image: url("../img/pexels-burst-374754.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.logo-img{
+    width: 40px;
+    height: auto;
+}
+.bannar-container{
+    height: 100vh;
+}
+.navbar{
+    padding: 1% 6%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-icon{
+    color: #fff;
+}
+.nav-link{
+    padding: 10px;
+    font-size: 20px;
+ 
+}
+
+.src-icon{
+    font-size:24px;
+    margin: 10px 15px;
+    color: white;
+}
+.bannar-h{
+    font-family: 'Handlee', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: rgba(103, 55, 149,0.8);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.btn-div{
+    text-align: center;
+}
+
+/* header section end */
+
+
+
+/* feature section start here */
+.features{
+    border: 1px solid #F94892;
+    padding: 1% 10%;
+    margin: 30px 0;
+    transition: .8s;
+    
+}
+.features:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.icon-style{
+    color: #fff;
+    background-color: #F94892;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 15px;
+}
+/* feature section end here */
+
+
+
+/* about me section start here */
+#about-me{
+    background-color: #E7F6F2;
+    padding-top: 4%;
+}
+.basic-desc{
+    padding: 1% 10%;
+}
+.title-heading{
+   margin: 1% 0;
+}
+.para-info{
+    margin-bottom: 0;
+    font-size: .9rem;
+    color: black;
+}
+.star{
+    padding: 5px;
+}
+/* about me section end here */
+
+/* tutorial section start here */
+.tutorials-sec{
+    padding: 4% 10%;
+    background-color: #F1EFDC;
+}
+.card{
+    margin-top: 20%;
+    transition: .4s;
+}
+.card:hover{
+
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* tutorial section end here */
+
+
+
+/* feedback section start here */
+#feedback{
+    padding: 5%;
+    background-color: #B2A4FF;
+}
+.feedback-img{
+    width: 120px;
+    height: auto;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* feedback section end here */
+
+
+/*contact section start here */
+
+#contact{
+    background-color: #FFF9CA;
+    padding: 4% 10%;
+}
+.label{
+    color: #000;
+    font-size: 1.2rem;
+    padding: 2px ;
+}
+
+/*contact section end here */
+
+
+
+/*footer section start here */
+footer{
+    background-color: #495C83;
+    padding: 1% 10%;
+    color: white;
+}
+footer a{
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+footer a:hover{
+    color: black ;
+}
+.text-home{
+    text-decoration: none;
+    text-align: left;
+}
+
+/*footer section start here */

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise Project </title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Palanquin&display=swap" rel="stylesheet"> 
+
+
+    <!-- font Awessome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!--  boostrap link -->
+   <link rel="stylesheet" href="css2/style.css">
+
+   <link rel="stylesheet" href="css2/bootstrap.css">
+   <link rel="stylesheet" href="css2/bootstrap.min.css">
+   
+
+
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <header>
+
+            <nav id="home" class="navbar navbar-expand-md navbar-dark  ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="logo-img" style="width:70px" src="img/logo.png" alt="logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars navbar-icon"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto ">
+
+                      <li class="nav-item">
+                        <a class="nav-link mx-lg-2 text-light  my-2 btn btn-outline-info " aria-current="page" href="#home">Home</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link text-light mx-lg-2 my-2  btn btn-outline-info " href="#tutorials">Tutorials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light mx-lg-2 my-2  btn btn-outline-info " href="#feedback">Feedback</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link mx-lg-2 text-light  my-2 btn btn-outline-info " href="#about-me">About Me </a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link mx-lg-2 text-light my-2 btn btn-outline-info " href="#contact">Contact</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control " type="search" placeholder="Search" aria-label="Search" >
+                      <a href="#"><i class=" src-icon fa-solid fa-magnifying-glass"></i></a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+             <div id="bannar">
+                <div class="bannar-container d-flex justify-content-center align-items-center" >
+                    <div class="bannar-content  ">
+                        <h1 class=" bannar-h mt-5 fw-bolder text-white ">Welcome to our Website</h1>
+                         <div class="btn-div">
+                             <button class="btn btn-primary btn-lg mx-2 my-5"  onclick="location.href='#tutorials'"><i class="fas fa-thin fa-play"></i> Tutorials</button>
+                            <button class=" btn-lg my-5 mx-2 btn btn-primary" onclick="window.open('https://www.youtube.com') "><i class="fa-brands fa-youtube"></i>    Subscriber</button>
+                    </div>
+                </div>
+           </div>
+     </div>
+
+        </header>
+       <!--  header section end here -->
+
+
+        <main>
+
+          <div id="features" class="p-4 text-center">
+            <div class="row">
+              <div class="col-lg-4 d-block d-lg-flex">
+                <div class="features">
+                  <i class="fa-brands fa-leanpub fa-3x  icon-style"></i>
+                  <h4 class="fs-2 text-dark fw-bold ">Easy to learn</h4>
+                  <p class="small ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore sequi aperiam fuga rerum esse odio deleniti sapiente illum asperiores?</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-block d-lg-flex">
+                <div class="features">
+                  <i class="fas fa-reply-all fa-3x  icon-style"></i>
+                  <h4 class="fs-2 text-dark fw-bold ">Fast response</h4>
+                  <p class="small ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore sequi aperiam fuga rerum esse odio deleniti sapiente illum asperiores?</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-block d-lg-flex">
+                <div class="features">
+                  <i class="fas fa-hand-holding-usd fa-3x  icon-style"></i>
+                  <h4 class="fs-2 text-dark fw-bold ">Use for free</h4>
+                  <p class="small ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore sequi aperiam fuga rerum esse odio deleniti sapiente illum asperiores?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+       <!--    about section start here -->
+          <div id="about-me">
+            <div class="section-title ">
+              <h2 class="text-dart fw-bold text-center">About Me</h2>
+              <hr class="hr-title text-center">
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="basic-desc ">
+                  <i class="far fa-user fa-3x bg-info p-3 rounded-circle"></i>
+                  <h5 class="text-dark fs-2 title-heading">Personal info</h5>
+                  <p class="para-info">Name: Masud Parvaz</p>
+                  <p class="para-info">Profession : Frelancer</p>
+                  <p class="para-info">Current Address: Noakhali, Bangladesh</p>
+                  <p class="para-info">Website: <a href="#" class="text-dark">Something.org</a></p>
+
+                  <button class="btn btn-outline-primary  my-2 btn-">Download CV</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-7"></div>
+
+              <div class="col-lg-5">
+                <div class="basic-desc ">
+                  <i class="fas fa-trophy fa-3x bg-info p-3 rounded-circle"></i>
+                  <h5 class="text-dark fs-2 title-heading">Achievement</h5>
+                  <p class="para-info"> <span class="fw-bold">100% Tution Waiver:</span> based on excellent acadamic result in National University,Bangladesh.</p>
+                  <p class="para-info"><span class="fw-bold">Public Bank Scholarship : </span>40000 tk for scoring CGPA 3.93/4.00 in BBA</p>
+                  <p class="para-info">
+                      <span class="fw-bold">Silver Button :</span> from Youtube becouse of 100000 subscriber.
+                  </p>
+                 
+
+                </div>
+              </div>
+
+              <div class="row">
+              
+                <div class="col-lg-5">
+                  <div class="basic-desc ">
+                    <i class="fas fa-briefcase fa-3x bg-info p-3 rounded-circle"></i>
+                    <h5 class="text-dark fs-2 title-heading">Skill</h5>
+
+                    <table>
+                      <tr>
+                        <th>HTML</th>
+                        <td>
+                         <span class="star ">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                         </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>CSS</th>
+                        <td>
+                         <span class="star ">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                         </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>BOOSTRAP</th>
+                        <td>
+                         <span class="star ">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                         </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>JAVASCRIPT</th>
+                        <td>
+                         <span class="star ">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half"></i>
+                          <i class="far fa-star"></i>
+                         </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>REACT</th>
+                        <td>
+                         <span class="star ">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                         </span>
+                        </td>
+                      </tr>
+                     
+                    </table>
+
+  
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+       <!--    about section end here -->
+
+
+
+       <!--    Tutorials section start here -->
+
+          <div id="tutorials" class="tutorials-sec">
+            <div class="section-title  mt-4 ">
+              <h2 class="text-dart fw-bold text-center">Tutorials</h2>
+              <hr class="hr-title text-center">
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card col-lg-0 mb-3 text-center">
+                  <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="">
+                 <!--  <a class="stretched-link" href="#"></a> -->
+                  <div class="card-body ">
+                    <h3 class="fw-bold ">HTML</h3>
+                    <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, perspiciatis?</p>
+                   
+                    <button class="btn btn-outline-info "><i class="fas fa-play"></i> Play</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card col-lg-0 mb-3 text-center">
+                  <img class="card-img" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">
+                 <!--  <a class="stretched-link" href="#"></a> -->
+                  <div class="card-body ">
+                    <h3 class="fw-bold ">CSS</h3>
+                    <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, perspiciatis?</p>
+                   
+                    <button class="btn btn-outline-info "><i class="fas fa-play"></i> Play</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card col-lg-0 mb-3 text-center">
+                  <img class="card-img-top" src="https://avatars.githubusercontent.com/u/2918581?s=280&v=4" alt="">
+                 <!--  <a class="stretched-link" href="#"></a> -->
+                  <div class="card-body ">
+                    <h3 class="fw-bold">BOOSTRAP</h3>
+                    <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, perspiciatis?</p>
+                   
+                    <button class="btn btn-outline-info "><i class="fas fa-play"></i> Play</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card col-lg-0 mb-3 text-center">
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                 <!--  <a class="stretched-link" href="#"></a> -->
+                  <div class="card-body ">
+                    <h3 class="fw-bold  ">JAVASCRIPT</h3>
+                    <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet. ?</p>
+                   
+                    <button class="btn btn-outline-info "><i class="fas fa-play"></i> Play</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="more text-center">
+                <a class="btn btn-outline-primary mt-5" href="#tutorials"> More Tutorials</a>
+              </div>
+            
+          </div>
+       <!--    Tutorials section end here -->
+
+
+
+       <!--    feedback section start here -->
+
+          <div id="feedback">
+            <div class="section-title  mt-4 ">
+              <h2 class="text-dart fw-bold text-center">Feedback</h2>
+              <hr class="hr-title text-center">
+            </div>
+
+            <div class="row">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>1.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem a dolorum sint voluptatum quia tenetur ex ut. Numquam, reiciendis cumque.</p>
+                    <img class="feedback-img rounded-circle" src="https://scontent.fcgp1-1.fna.fbcdn.net/v/t39.30808-6/238666124_1434606116919534_9222089015603819990_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGMUl8uFzSuQr5Y4KLLzRDwFj77ExQ2e8cWPvsTFDZ7x3TB-8EQ4uN1DKIvAFr8CWv5iaYdqqQoGlYDZwaLuAzR&_nc_ohc=QGrd5x2gAXwAX8K_5vu&_nc_zt=23&_nc_ht=scontent.fcgp1-1.fna&oh=00_AT9VXoo1p6uMKb1FiTVJuMjqifcdB--wJVcTipbEr7wVyQ&oe=630DF4F1" class="d-block w-100" alt="feedback img">
+                    <h4>Masud Parvaz</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <p>2.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem a dolorum sint voluptatum quia tenetur ex ut. Numquam, reiciendis cumque.</p>
+                    <img class="feedback-img rounded-circle" src="https://scontent.fcgp1-1.fna.fbcdn.net/v/t39.30808-6/238666124_1434606116919534_9222089015603819990_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGMUl8uFzSuQr5Y4KLLzRDwFj77ExQ2e8cWPvsTFDZ7x3TB-8EQ4uN1DKIvAFr8CWv5iaYdqqQoGlYDZwaLuAzR&_nc_ohc=QGrd5x2gAXwAX8K_5vu&_nc_zt=23&_nc_ht=scontent.fcgp1-1.fna&oh=00_AT9VXoo1p6uMKb1FiTVJuMjqifcdB--wJVcTipbEr7wVyQ&oe=630DF4F1" class="d-block w-100" alt="feedback img">
+                    <h4>Masud Parvaz</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <p>3.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem a dolorum sint voluptatum quia tenetur ex ut. Numquam, reiciendis cumque.</p>
+                    <img class="feedback-img rounded-circle" src="https://scontent.fcgp1-1.fna.fbcdn.net/v/t39.30808-6/238666124_1434606116919534_9222089015603819990_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGMUl8uFzSuQr5Y4KLLzRDwFj77ExQ2e8cWPvsTFDZ7x3TB-8EQ4uN1DKIvAFr8CWv5iaYdqqQoGlYDZwaLuAzR&_nc_ohc=QGrd5x2gAXwAX8K_5vu&_nc_zt=23&_nc_ht=scontent.fcgp1-1.fna&oh=00_AT9VXoo1p6uMKb1FiTVJuMjqifcdB--wJVcTipbEr7wVyQ&oe=630DF4F1" class="d-block w-100" alt="feedback img">
+                    <h4>Masud Parvaz</h4>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+       <!--    feedback section end here -->
+
+      <!--  contact section start here -->
+
+      <div id="contact">
+        <div class="section-title  mt-4 ">
+          <h2 class="text-dart fw-bold text-center">Contact</h2>
+          <hr class="hr-title text-center">
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="mmpfarabi@gmail.com " method="post" enctype="text/plain" class="was-validated">
+
+              <div class="form-group mb-3">
+                <label class="label" for="fullname">Fullname</label>
+                <input type="text " name="fullname" class="form-control" required>
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback text-dark">Enter full name before submiting the form.</div>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="label" for="email">Email</label>
+                <input type="email " name="email" class="form-control" required>
+                <div class="valid-feedback"></div>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="label" for="message">Message</label>
+                <textarea name="message" class="form-control" style="resize: none;" id="message-area" cols="30" rows="5"></textarea>
+              </div>
+              
+
+              <div class="form-group text-center ">
+               <input type="submit" class="btn btn-primary" value="Submit ">
+               <input type="reset" class="btn btn-primary" value="Reset ">
+              </div>
+
+
+
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+      <!--  contact section end here -->
+
+        </main>
+
+        <footer>
+          <div class="row">
+            <div class="col-lg-6 text-center text-lg-start">
+              <p>&copy; Masud Parvaz</p>
+
+              <a class="small text-home" href="#home">Go to Top</a>
+            </div>
+            <div class="col-lg-6">
+              <div class="footer-icon text-center text-lg-end">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </footer>
+    </div>
+
+   <!--  javascript link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
